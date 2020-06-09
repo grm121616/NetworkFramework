@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47741171248D7E3E00B0E850 /* NetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47741167248D7E3E00B0E850 /* NetworkFramework.framework */; };
 		47741178248D7E3E00B0E850 /* NetworkFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4774116A248D7E3E00B0E850 /* NetworkFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		477411D8248D901A00B0E850 /* URLSession+Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477411D2248D901A00B0E850 /* URLSession+Session.swift */; };
 		477411D9248D901A00B0E850 /* APIRequestConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477411D4248D901A00B0E850 /* APIRequestConfigure.swift */; };
@@ -15,6 +14,7 @@
 		477411DB248D901A00B0E850 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477411D6248D901A00B0E850 /* NetworkError.swift */; };
 		477411DC248D901B00B0E850 /* NetworkRequestConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477411D7248D901A00B0E850 /* NetworkRequestConfigure.swift */; };
 		477411E7248D934100B0E850 /* NetworkFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47741175248D7E3E00B0E850 /* NetworkFrameworkTests.swift */; };
+		478531B9248DC535008085D1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47741177248D7E3E00B0E850 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +26,19 @@
 			remoteInfo = NetworkFramework;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47F8C659248DCCD2006F703E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		47741167248D7E3E00B0E850 /* NetworkFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47741171248D7E3E00B0E850 /* NetworkFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +151,7 @@
 				47741163248D7E3E00B0E850 /* Sources */,
 				47741164248D7E3E00B0E850 /* Frameworks */,
 				47741165248D7E3E00B0E850 /* Resources */,
+				47F8C659248DCCD2006F703E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478531B9248DC535008085D1 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
