@@ -43,7 +43,6 @@
 /* Begin PBXFileReference section */
 		47741167248D7E3E00B0E850 /* NetworkFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4774116A248D7E3E00B0E850 /* NetworkFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkFramework.h; sourceTree = "<group>"; };
-		4774116B248D7E3E00B0E850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47741170248D7E3E00B0E850 /* NetworkFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47741175248D7E3E00B0E850 /* NetworkFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFrameworkTests.swift; sourceTree = "<group>"; };
 		47741177248D7E3E00B0E850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,7 +95,6 @@
 				4774116A248D7E3E00B0E850 /* NetworkFramework.h */,
 				477411D1248D901A00B0E850 /* Extension */,
 				477411D3248D901A00B0E850 /* NetworkController */,
-				4774116B248D7E3E00B0E850 /* Info.plist */,
 			);
 			path = NetworkFramework;
 			sourceTree = "<group>";
